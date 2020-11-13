@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500&family=Lobster&display=swap');
+
+body {
+    font-family: 'Cabin' , sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navbar-brand , .newsletter , .footer{
+    font-family: 'Lobster' , sans-serif;
+}
+
+.navbar {
+    overflow: hidden;
+    top: 0;
+    position: fixed;
+    width: 100vw;
+    z-index: 300;
+}
+
+hr {
+    border: none;
+    height: 0.08rem;
+    background-color: #707070;
+}
+
+.hidden{
+    display: none;
+}
